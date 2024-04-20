@@ -1,0 +1,28 @@
+:root {
+    --text-color: #9fa3a7;
+    --text-color-2: #333;
+    --bg-color: #f05638;
+    --bg-color-2: #8f76bc;
+    --bg-color-3: #2c2c2c;
+    --bg-color-4: #f7f8f9;
+    --bg-btn: #ffc80a;
+    --bg-twii: #38d5f4;
+    --ancor-color: #27b9c2;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 , h3 , h5 {
+    font-family: Arvo, sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+h2 , h4{
+ font-family: Montserrat, sans-serif;
+}
