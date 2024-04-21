@@ -9,6 +9,7 @@
     --bg-twii: #38d5f4;
     --ancor-color: #27b9c2;
     --circle: #8166b0;
+    --bg-text: #7bc424;
 }
 
 * {
@@ -127,7 +128,8 @@ img {
 }
 
 .parent .container-box .box-info .img-box {
-    width: 100%;
+    width: 65%;
+    margin: auto;
     padding-top: 40px;
 }
 
@@ -148,7 +150,7 @@ img {
     font-size: 48px;
     text-align: center;
     margin: 15px;
-    width: 85%;
+    width: 65%;
 }
 
 .parent .chemical a {
@@ -343,7 +345,8 @@ h4 {
     margin-top: 15px;
 
 }
-.iCloud .icloud-info button{
+
+.iCloud .icloud-info button {
     color: #000;
     background-color: #ffc80a;
     margin-top: 30px;
@@ -370,13 +373,14 @@ h4 {
     grid-row-start: 3;
     grid-row-end: 4;
 }
-.parent .image-game{
+
+.parent .image-game {
     position: relative;
-    width: 70%;
+    width: 40%;
     right: 20px;
 }
 
-.parent .game h3{
+.parent .game h3 {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 22px;
@@ -384,7 +388,7 @@ h4 {
     font-weight: 400;
 }
 
-.parent .game a{
+.parent .game a {
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 2.4px;
@@ -393,7 +397,7 @@ h4 {
 
 /* Labtop */
 
-.labtop{
+.labtop {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -402,14 +406,14 @@ h4 {
     grid-row-start: 3;
     grid-row-end: 4;
     position: relative;
-    background-image: url(/image/bg-ui-ux.png);
+    /* background-image: url(/image/bg-ui-ux.png); */
     background-color: #93b6b7;
 }
 
-.labtop .left-contant{
+.labtop .left-contant {
     position: absolute;
     color: white;
-    background-color:var(--bg-color);
+    background-color: var(--bg-color);
     left: 20px;
     top: 20px;
     padding-right: 10px;
@@ -420,7 +424,8 @@ h4 {
     font-weight: 700;
     letter-spacing: 2px;
 }
-.labtop h1{
+
+.labtop h1 {
 
     padding-block: 30px;
     color: white;
@@ -428,4 +433,141 @@ h4 {
     font-weight: 700;
     text-align: center;
 }
+.labtop .lap-image{
+    position: relative;
+    left: -7%;
+    width: 90%;
+}
+
+.labtop .lap-image::after {
+    content: "";
+    position: absolute;
+    background-image: url(/image/bg-ui-ux.png);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    left: 95px;
+    height: 110%;
+    top: -20px;
+}
+
+.labtop .lap-image img {
+    width: 90%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
 /* End labtop */
+
+/* twitter */
+.parent .twitter {
+    background-color: #38d5f4;
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-items: center;
+
+}
+
+.parent .twitter .content-twi {
+    margin-top: 30%;
+}
+
+.parent .twitter .circle {
+    background-color: #35cfed;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    padding-right: 34px;
+    padding-left: 34px;
+    text-align: center;
+}
+
+.parent .twitter .fa-twitter {
+    color: yellow;
+    text-align: center;
+
+}
+
+.parent .twitter .circle h2 {
+    text-align: center;
+    max-width: 180px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Arvo', sans-serif;
+}
+
+.parent .MuchBetter {
+    /* background-color: yellow; */
+    background-color: #ffffff;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent .title {
+    background-color: #7bc424;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.parent .MuchBetter h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Tv */
+
+.parent .tv {
+    background-color: #2c2c2c;
+    display: flex;
+    overflow: hidden;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    grid-area: 4/3/4/5;
+}
+
+.tv .tv-img {
+    position: relative;
+    width: 30%;
+    right:10%;
+
+}
+
+.tv .tv-text h3 {
+    margin: auto;
+    width: 70%;
+    text-align: start;
+    color: white;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+

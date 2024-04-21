@@ -1,0 +1,37 @@
+
+@media screen and (max-width: 479px) {
+    .parent {
+        background-color: #ca0c0c; 
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+    }
+
+    /*------- start iPhone-6--------- */
+    .iPhone-6 {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+        }
+
+    .parent .container-box .text-box {
+        width: 100%;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    .parent.container-box .text-box h3 {
+        text-align: center;
+
+    }
+
+    .parent .container-box .text-box p {
+        background-color: orange;
+
+    }
+
+    .parent .container-box .img-box {
+        width: 80%;
+    }
+}
+
+
